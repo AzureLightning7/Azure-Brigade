@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1443394612708988}
+  m_IsPrefabAsset: 1
+--- !u!1 &1443394612708988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4078571431788776}
+  - component: {fileID: 114403802153783458}
+  - component: {fileID: 114883077662644862}
+  m_Layer: 0
+  m_Name: GameTwo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4078571431788776
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1443394612708988}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114403802153783458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1443394612708988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 388f3f69747b56640bc9c6dd58af6c65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnObject: {fileID: 1581483843947576, guid: bf6d8eedfd35f474d9d66412c97beef4,
+    type: 2}
+  spawnWait: 3
+  spawnRate: 1
+  spawnPositionRange: 15
+  spawnPositionHeight: 25
+  powerupObject: {fileID: 1569018090378366, guid: f88c76cda31272840a016920809fd63a,
+    type: 2}
+  powerupWait: 5
+  powerupRateMin: 5
+  powerupRateMax: 10
+  shieldPowerupObject: {fileID: 1355801712400778, guid: c5cd8d5ff419f70419e8489c950d4c5f,
+    type: 2}
+  shieldWait: 10
+  shieldRateMin: 10
+  shieldRateMax: 15
+--- !u!114 &114883077662644862
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1443394612708988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456e3fd0f6936f945b21746575a72943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  farSpawnObject: {fileID: 1581483843947576, guid: bffd61bf9411784499c8c0a4d37e5323,
+    type: 2}
+  farSpawnWait: 3
+  farSpawnRate: 0.75
+  farSpawnPositionRange: 20
+  farSpawnPositionHeight: -40
+  farSpawnPositionDepth: 30
+  farPowerupObject: {fileID: 1307860561965790, guid: 2d87aded7a5553a488a6470fbc771004,
+    type: 2}
+  farPowerupWait: 5
+  farPowerupRateMin: 10
+  farPowerupRateMax: 15
+  farShieldPowerupObject: {fileID: 1243315424400454, guid: e34be00cb982c80498fc3297091b51e8,
+    type: 2}
+  farShieldWait: 10
+  farShieldRateMin: 15
+  farShieldRateMax: 20
